@@ -16,7 +16,7 @@ Se rechazaron aproximadamente 450 transacciones comerciales durante la ventana d
 * **12:10 PM:** Se despliega el release v2.4.1 a producción conteniendo cambios en el módulo de facturación.
 * **12:11 PM:** Inician las alertas automáticas por incremento de errores HTTP 504.
 * **12:30 PM:** Se registra el Issue #1 y el Incident Commander asume el mando de la respuesta.
-* **10:35 PM:** El equipo de desarrollo identifica la causa raíz en las trazas del pool de conexiones.
+* **12:35 PM:** El equipo de desarrollo identifica la causa raíz en las trazas del pool de conexiones.
 * **12:45 PM:** Se publica la rama hotfix/issue-1-fix-db-connection-leak y se abre el PR.
 * **12:58 PM:** Se aprueba el PR, se realiza el despliegue de emergencia y se verifica la normalización del servicio.
 * **13:05 PM:** Cierre formal del incidente tras validar la tasa de éxito en el 100% de los pagos.
@@ -35,6 +35,7 @@ Se rechazaron aproximadamente 450 transacciones comerciales durante la ventana d
 
 ## Acciones Preventivas y Correctivas (Action Items)
 | Acción de Mejora | Tipo | Responsable | Fecha Límite |
+| --- | --- | --- | --- |
 | Implementar linter estático en CI | Prevención | neoaerial9-dev | 2026-11-05 |
 | Pruebas de carga con k6 en staging | Proceso | neoaerial9-dev | 2026-11-12 |
 | Alerta proactiva si pool DB > 80% | Mitigación | neoaerial9-dev | 2026-11-02 |
