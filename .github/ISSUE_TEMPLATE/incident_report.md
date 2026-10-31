@@ -1,3 +1,4 @@
+---
 name: Reporte de Incidencia
 about: Utilice esta plantilla para registrar interrupciones o degradaciones en producción.
 title: '[INCIDENTE] <Título corto del problema>'
